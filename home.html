@@ -3,66 +3,73 @@
   <head>
     <meta charset="utf-8">
     <title>Code @ Lab</title>
-            <!-- Chrome, Firefox OS, Opera and Vivaldi -->
-        <meta name="theme-color" content="#66CD00">
-        <!-- Windows Phone -->
-        <meta name="msapplication-navbutton-color" content="#66CD00">
-        <!-- iOS Safari -->
-        <meta name="apple-mobile-web-app-status-bar-style" content="#66CD00">
-        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald" />
+        <link rel="stylesheet" type="text/css" href="bootstrap.css" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" type="text/css" href="styles.css">
         <script src="jquery-3.1.1.min.js"></script>
-        <script src="jquery.firstVisitPopup.js"></script>
   </head>
 
-  <body class="menu">
-    <div class="popup">
-      <p>Welcome to the new code @ lab  website!<p>
-    </div>
+  <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">Code@Lab</a>
 
-    <header>
-      <a href="#" class="menu_toggle"><i class="material-icons" style="font-size: 48px;">menu</i></a>
-      <!-- <h1>Recent News</h1> -->
-
-      <div class="menu-side">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Info1</a></li>
-          <li><a href="#">Info2</a></li>
-          <li><a href="#">Info3</a></li>
-          <li><a href="#">Info4</a></li>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+        <li class="nav-item">
+          <a class="nav-link" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="competitions.html">Competitions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="ctf.html">CTF</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
         </ul>
-      </div>
-    </header>
-
-    <!-- <div class="tab">
-
-    </div> -->
-
+      </form>
+    </div>
+  </nav>
+  <body>
     <div class="middle">
-      <div class="article">
-        <h1>New Beginnings</h1>
-        <h5>by Ashwin Aggarwal (6/25/17)</h5>
-        <p>Welcome to the new Code @ Lab Website! "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"</p>
+      <div class="entry">
+        <div id="auth_date">
+          <span id="arti">by </span><span id="author">Ashwin Aggarwal</span><br />
+          <span id="arti">on </span><span id="date">6/29/17</span>
+        </div>
+        <p id="entry_content"><br />
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
 
-
+          The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+        </p>
       </div>
+      <hr />
+      <div class="entry">
+        <div id="auth_date">
+          <span id="arti">by </span><span id="author">Ashwin Aggarwal</span><br />
+          <span id="arti">on </span><span id="date">8/34/17</span>
+        </div>
+        <p id="entry_content"><br />
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
 
+          The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+        </p>
+      </div>
+      <hr />
     </div>
 
-    <script>
-      (function() {
-          var body = $('body');
-          $('.menu_toggle').bind('click', function(){
-              body.toggleClass('menu-open');
-          });
-        })();
-        $('.popup').firstVisitPopup({
-          cookieName: 'homepage', showAgainSelector: '#show-message'
-        });
 
-    </script>
+
 
   </body>
 
