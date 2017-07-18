@@ -261,10 +261,9 @@ footer {
 }
 
 .entry {
-  border-left: 2px solid black;
-  border-right: 2px solid black;
+  border: 2px solid grey;
   padding: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 #arti {
@@ -278,4 +277,10 @@ footer {
 
 #entry_content {
   font-size: 15px;
+}
+
+#heading {
+    text-align:left;
+    font-size: 28px;
+    margin-bottom: 10px;
 }
